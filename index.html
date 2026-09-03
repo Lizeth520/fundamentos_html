@@ -12,8 +12,25 @@
 <body>
     <header>
         <nav>
+            <div>
+                <a href="#">
+                    <img src="assets/images/SENA.svg" alt="Logo SENA"
+                    width="50">
+                </a>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre Mi</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+
+    <hr>
 
     <main>
         <!--Contenido principal de la pagina-->
@@ -56,6 +73,111 @@
                     <li>Resolucion de problemas</li>
                 </ol>    
             </div>
+        </section>
+
+        <hr>
+
+        <!--Contenidos Multimedia-->
+        <section>
+            <h3>Contenido Multimedia</h3>
+            <div>
+                <h4>Imagenes</h4>
+                <center>
+                <img src="assets/images/MARKETING.jpg" alt="Imagen de MARKETING" 
+                width="240">
+                </center>
+            </div>
+            <!--Videos-->
+            <div>
+                <h4>Video</h4>
+                <center>
+                <video width="320" height="240" controls>
+                    <source src="assets/videos/video_marke.mp4" type="video/mp4"
+                </video>
+                </center>
+            </div>
+            <!--Audios-->
+            <div>
+                <h4>Audios</h4>
+                <center>
+                    <audio controls>
+                        <source src="assets/audios/dance.mp3" type="audio/mp3">
+                    </audio>
+                </center>
+            </div>
+            <!--Iframes-->
+            <div>
+                <center>
+                    <h4>Iframes-Maps</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.963204481885!2d-72.92559433121072!3d5.718439768598721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a45de6fcfee9d%3A0xfdcf8f854adf18fb!2sINSTITUTO%20TECNICO%20LOS%20ANDES!5e0!3m2!1ses!2sco!4v1788399969450!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </center>
+            </div>
+        </section>
+
+        <hr>
+
+        <!--Tablas-->
+
+        <section>
+            <h3>Tabla Horario de Clases </h3>
+            <center>
+            <table border="1">
+                <center>
+                <tr>
+                    <th>Dia</th><!--Pra columna-->
+                    <th>Competencia</th><!--Sda columna-->
+                </tr>
+                <tr>
+                    <th>Lunes</th><!--Pra columna-->
+                    <th>Etica</th><!--Sda columna-->
+                </tr>
+                <tr>
+                    <th>Martes</th><!--Pra columna-->
+                    <th>Ingles</th><!--Sda columna-->
+                </tr>
+                <tr>
+                    <th>Miercoles</th><!--Pra columna-->
+                    <th>Desarrollo de Software</th><!--Sda columna-->
+                </tr>
+                <tr>
+                    <th>Jueves</th><!--Pra columna-->
+                    <th>Desarrollo de Software</th><!--Sda columna-->
+                </tr>
+                <tr>
+                    <th>Viernes</th><!--Pra columna-->
+                    <th>Desarrollo de Software</th><!--Sda columna-->
+                </tr>
+                </center>
+            </table></center>
+        </section>
+
+        <hr>
+
+        <!--Formulario de Contacto-->
+
+        <section>
+            <h3>Formulario de Contacto</h3>
+            <form action="#" method="post">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre">
+                <br>
+                <label for="correo">Correo</label>
+                <input type="email" id="correo">
+                <br>
+                <label for="password">Contrasena</label>
+                <input type="password" id="password">
+                <br>
+                <label for="Telefono">Telefono</label>
+                <input type="number" id="Telefono">
+                <br>
+                <label for="Mensaje">Mensaje</label>
+                <textarea id="Mensaje"></textarea>
+                <br>
+                <label for="Fecha">Fecha</label>
+                <input type="date" id="Fecha">
+                <br>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
         </section>
     </main>
 
